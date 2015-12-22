@@ -14,7 +14,7 @@ You're gonna need [nodejs](https://nodejs.org) installed. If you haven't already
 
 This tutorial assumes basic knowledge of node and the command line, but I'm gonna try and be as verbose as possible so non techie types can give it a go.
 
-Also, I have us test he example using curl. It just feels cooler, more like someone else is triggering the socket. If you don't have it installed you can just visit the url in a separate tab in the browser.
+Also, I have us test the example using curl. It just feels cooler, more like someone else is triggering the socket. If you don't have it installed you can just visit the url in a separate tab in the browser.
 
 ## Generating your express project
 
@@ -24,7 +24,7 @@ Cool, now that that's out of the way we're gonna set up the basics.
 $ sudo npm install express-generator -g
 ```
 
-O.K. I'm assuming you're familiar with NPM at this point. But just in case you aren't NPM is node's default package manger. The command below does a couple of things. it uses **npm** to install **express-generator** it's using **sudo** since the **-g** option is telling it to install "globally".
+O.K. I'm assuming you're familiar with NPM at this point. But just in case you aren't NPM is node's default package manger. The command above does a couple of things. it uses **npm** to install **express-generator** it's using **sudo** since the **-g** option is telling it to install "globally".
 
 Now let's use express generator to set up our app.
 
