@@ -1,6 +1,6 @@
 # Express Generator and Socket.io
 
-Recently we went about adding socket.io to a site scaffolding created with express generator. Socket.io's documentation is pretty good, but doesn't "just work" with the generator setup.
+Recently we went about adding socket.io to a site scaffolding created with express generator. Socket.io's documentation is pretty good, but doesn't "just work" with the Express generator setup.
 
 While in the end it's a trivial fix, a quick google didn't provide much for answers so I figured I'd put together a simple guide on [Express](http://expressjs.com/) and [Socket.io](http://socket.io/) using the command line [express generator](https://github.com/expressjs/generator).
 
@@ -126,7 +126,7 @@ See that last line where we're exporting the app? well we want to export our ser
 module.exports = {app: app, server: server};
 ```
 
-Cool, no lets save and close that file and move on to editing bin/www. Open bin/www in your editor.
+Cool, now lets save and close that file and move on to editing bin/www. Open bin/www in your editor.
 
 Lines 1-22 should look like this:
 
