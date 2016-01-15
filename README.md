@@ -53,7 +53,7 @@ $ npm install
 And for kicks let's launch our application.
 
 ```
-$ node app.js
+$ node bin/www
 ```
 
 If all went well you should have an express app running at http://localhost:3000 check that out in your browser. 
