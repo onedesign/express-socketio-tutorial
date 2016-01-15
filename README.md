@@ -140,7 +140,7 @@ Lines 1-22 should look like this:
  */
 
 var app = require('../app');
-var debug = require('debug')('www:server');
+var debug = require('debug')('myApp:server');
 var http = require('http');
 
 /**
@@ -272,7 +272,7 @@ block content
   p Welcome to #{title}
   script(src="/socket.io/socket.io.js")
   script.
-    var socket = io('//localhost:3004');
+    var socket = io('//localhost:3000');
     socket.on('socketToMe', function (data) {
       console.log(data);
     });
