@@ -282,7 +282,7 @@ Great. I think that's it, let's restart the server and see if this works.
 
 First open up your homepage at http://localhost:3000. Open up dev tools and watch your JS console.
 
-Now pop open another terminal and type:
+Now pop open terminal and type:
 
 ```
 $ curl http://localhost:3000/users
