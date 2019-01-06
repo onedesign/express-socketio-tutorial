@@ -1,0 +1,7 @@
+node_modules
+
+# Ignore all files starting with "."
+.*
+
+# Don't ignore .gitignore
+!.gitignore
